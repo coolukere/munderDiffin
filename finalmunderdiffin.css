@@ -1,0 +1,192 @@
+body {
+    background-color: #fff;
+    margin: 0px; 
+}
+
+p {
+    color: black; 
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+}
+
+header {
+    width: 1500px;
+    height: 450px;
+    margin-bottom: 40px;
+    padding: 0px;
+    overflow: hidden;
+    background-image: url("https://i.imgur.com/LS4Snsg.png");
+    background-repeat:no-repeat;
+    background-position:top center;
+}
+
+nav {
+    width:1500px;
+    height:50px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99999;
+    background-color: #fff;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+nav a {
+    font-family: Playfair Display, serif;
+    color: #4D3B3A;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding:0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    background-color:#fff;
+    color:#975D4B;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:visited {
+    background-color:#22A67A;
+    color: #334252;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:active {
+    background-color:#22A67A;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quote{
+    display:flex;
+    justify-content:center;
+}
+
+.quote h1 {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    margin: 0 auto;
+    display: inline;
+    overflow: auto;
+    white-space: no-wrap;
+    animation: textReveal 3.1s ease-in-out infinite;
+}
+
+@keyframes textReveal {
+    from {color: transparent}
+    9%   {color:#C7D7EB}
+    18% {color:#9FAFC2}
+    27% {color:#8696A8}
+    36% {color:#7C8B9E}
+    45% {color:#000318}
+    56% {color:#7C8B9E}
+    63% {color:#8696A8}
+    72% {color:#9FAFC2}
+    81% {color:#C7D7EB}
+    to {color:transparent}
+  }
+
+.container {
+    width:1500px;
+    height:800px;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.container #column-1 {
+    float:left;
+}
+
+.container #column-2 {
+    float:right;
+}
+
+.container #column-3 {
+    float:left;    
+}
+
+.container h2 {
+    text-transform:uppercase;
+}
+
+container #section-image {
+    animation-name:revealImage;
+
+}
+
+container #section-paragraph {
+    color: black; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    animation:transformText;
+    display:block;
+}
+
+button {
+    font-family: Playfair Display, serif;
+    color: #4D3B3A;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: none;
+    border: 1px solid #D0CDC6 ;
+    display: flex;
+    justify-content: center;
+
+}
+
+button:hover {
+    background-color:#fff;
+    color:#975D4B;
+    cursor: pointer;
+    border: 1 px solid #D0CDC6;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width:1500px;
+    height:50px;
+    font-family: Playfair Display, serif;
+    background-color: #fff;
+    color: #4D3B3A;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-family: Playfair Display, serif;
+    background-color: #fff;
+    color: #4D3B3A;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+}
+
+footer a {
+    font-family: Playfair Display, serif;
+    background-color: #fff;
+    color: #4D3B3A;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+}
