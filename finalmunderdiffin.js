@@ -1,10 +1,13 @@
-use script ;
 
-let buttons = document.getElementsByClassName('learn-button');
-let paragraphs = document.getElementsByIdName('section-paragraph');
+button.addEventListener("click", (event) => {
+let paragraph = document.querySelectorAll("column");
+let button = document.getElementsByClassName("learn-button");
 
-  function show("click", (event)) {
-   button.style.display= 'none' {
-   section-paragraph.style.display = 'block';
-    }
+if (paragraph.className == "open") {
+          paragraph.className = "";
+           button.innerHTML = "Show More"
+        } else {
+          paragraph.className = "open";
+           button.innerHTML = "Show Less"
   }
+});
