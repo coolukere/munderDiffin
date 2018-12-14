@@ -1,7 +1,7 @@
 "use strict";
+document.getElementById("learn-button").onclick = learnMore;
 
-let learnButton = document.getElementsByClassName("learn-button");
-
-learnButton.addEventListener("click", function (event){
-    console.log(document.getElementsByClassName('section-paragraph').style.color = "green");
-});
+function learnMore() {
+  let demo = document.getElementById("section-paragraph")
+  demo.innerHTML = "Learn More Info On Next Page";
+}
